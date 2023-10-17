@@ -1,0 +1,30 @@
+* {
+    background-color: black;
+ font-size: 50px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+
+.accounts {
+    display: grid;
+    justify-content: center;
+    display: flex;
+    grid-gap: 20px;
+}
+
+.account1 {
+    color: gray;
+    
+}
+
+.add-profile {
+    border-radius: 50%;
+  
+
+}

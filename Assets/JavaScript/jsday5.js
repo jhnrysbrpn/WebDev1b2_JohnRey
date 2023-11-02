@@ -29,4 +29,3 @@ function submitContact() {
 function viewContacts() {
     console.log(phoneBook);
 }
-

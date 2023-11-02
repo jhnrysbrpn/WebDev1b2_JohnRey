@@ -27,17 +27,6 @@ function submitContact() {
 }
 
 function viewContacts() {
-    // console.log(phoneBook);
-    var para = document.createElement("p");
-    var node = document.createTextNode("");
-    para.append(node);
-    var element = document.getElementById('viewContacts');
-    element.append(para);
+    console.log(phoneBook);
 }
 
-// var myNodelist = document.querySelectorAll('phoneBook');
-// var toPrint = "";
-// for(var i = 0; i <= myNodelist.length-1; i++) {
-//     toPrint = toPrint + myNodelist[i].innerHTML;
-// }
-// document.getElementById('viewContacts').innerHTML = "fasfsafa" + toPrint;

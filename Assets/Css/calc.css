@@ -34,7 +34,3 @@ body {
   background-color: #6c62ff;
 }
 
-#displayRow{
-  overflow-y: hidden;
-  overflow-x: auto;
-}

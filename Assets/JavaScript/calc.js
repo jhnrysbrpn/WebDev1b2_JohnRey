@@ -31,7 +31,6 @@ function compute() {
     value = value2 * value;
   } else if (operator == '/') {
     value = value2 / value;
-
   } else if (operator == '%') {
     value = value2 % value;
   }
@@ -55,11 +54,10 @@ function pressNumber(buttonValue) {
     value = buttonValue; 
   } else {
     // check if it has a decimal point or none
-
+    
     if (Number.isInteger(value) && valueString.length < 10) {
 
     if (Number.isInteger(value)) {
-
       // no decimal point
       valueString = valueString + buttonValue.toString(); 
       value = parseInt(valueString);
@@ -72,7 +70,6 @@ function pressNumber(buttonValue) {
 
       if (decimalCount == 1 && decimalToString[decimalToString.length-1] == '0' ) {
 
-      if (decimalCount == 1 && decimalToString[decimalToString.length-1] == '0') {
 
         var newDecimalValue = buttonValue / (10 ** decimalCount); 
       } else {

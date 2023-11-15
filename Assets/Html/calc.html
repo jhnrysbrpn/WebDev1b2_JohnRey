@@ -7,12 +7,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link href="../Css/calc.css" rel="stylesheet" type="text/css" />
-
   </head>
   <body class="flex justify-center items-center content-center flex-wrap">
     <div id="calcContainer">
       <div id="calcContent" class="flex flex-col gap-2.5">
-        <div id="displayRow" class="text-white text-6xl flex justify-end truncate"></div>
+
+        <div id="displayRow" class="text-white text-6xl flex justify-end text-hidden"></div>
         <div id="buttonsRow" class="flex flex-column justify-between">
           <div 
             class="buttonItem text-2xl font-light text-gray-400 flex justify-center items-center"
@@ -26,7 +26,6 @@
           >
             [+/-]
           </div>
-
           <div 
           class="buttonItem text-2xl font-light text-gray-400 flex justify-center items-center"
           onclick="calculatePercentage('%')"

@@ -85,7 +85,7 @@ svg {
 footer {
   margin: 0;
   padding: 2em;
-  width: 100vw;
+  width: 100%;
   background: linear-gradient(#0a1f1b,#061210) ;
   border-top: 2px solid #002e2d;
   color: whitesmoke;
